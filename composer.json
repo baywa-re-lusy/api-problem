@@ -1,0 +1,22 @@
+{
+    "name": "lusy/laminas-api-problem",
+    "description": "BayWa r.e. Laminas API Problem handling",
+    "type": "library",
+    "license": "proprietary",
+    "homepage": "https://baywa-re.com",
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*",
+        "composer-runtime-api": "^2.0",
+        "laminas-api-tools/api-tools-api-problem": "^1.5"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.4",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BayWaReLusy\\ApiProblem\\": "src/ApiProblem"
+        }
+    }
+}
